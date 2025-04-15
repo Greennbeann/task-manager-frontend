@@ -1,12 +1,42 @@
-# React + Vite
+# MoJ Task Manager – Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the React frontend for the Ministry of Justice technical test. It provides a user interface for managing tasks using the backend API.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Create, view, update, and delete tasks
+- Update task status from the UI
+- Responsive task list
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (via Vite)
+- JavaScript
+- HTML & CSS
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js v18+ recommended
+- Backend server must be running on [http://localhost:8080](http://localhost:8080)
+
+### Running the App
+
+```bash
+npm install
+npm run dev
+```
+
+Then open [http://localhost:5173](http://localhost:5173)
+
+## Connecting to the Backend
+
+Make sure the backend is running and CORS is enabled for `http://localhost:5173`.
+
+## Functionality
+
+- Create tasks using a form
+- View a list of all tasks
+- Update task status via dropdown
+- Delete tasks with a button
