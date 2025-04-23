@@ -1,6 +1,6 @@
 # MoJ Task Manager – Frontend
 
-This is the React frontend for the Ministry of Justice technical test. It provides a user interface for managing tasks using the backend API.
+This is a standard React frontend. It provides a user interface for managing tasks using the backend API.
 
 ## Features
 
