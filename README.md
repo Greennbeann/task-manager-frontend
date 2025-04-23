@@ -1,4 +1,4 @@
-# MoJ Task Manager – Frontend
+# Task Manager Front-end
 
 This is a standard React frontend. It provides a user interface for managing tasks using the backend API.
 
